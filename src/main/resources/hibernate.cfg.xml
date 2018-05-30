@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE hibernate-configuration SYSTEM
-        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<!DOCTYPE hibernate-configuration SYSTEM "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-
         <property name="connection.driver_class">
             org.postgresql.Driver
         </property>
@@ -24,12 +22,22 @@
             10
         </property>
 
-        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL95Dialect</property>
+        <property name="hibernate.dialect">
+            org.hibernate.dialect.PostgreSQL95Dialect
+        </property>
 
-        <property name="current_session_context_class">thread</property>
+        <property name="current_session_context_class">
+            thread
+        </property>
 
-        <property name="show_sql">true</property>
+        <property name="show_sql">
+            true
+        </property>
 
-        <property name="hbm2ddl.auto">create</property>
+        <property name="hbm2ddl.auto">
+            create-drop
+        </property>
+
+        <mapping class="User"/>
     </session-factory>
 </hibernate-configuration>
