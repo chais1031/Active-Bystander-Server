@@ -35,7 +35,7 @@
         </property>
 
         <property name="hbm2ddl.auto">
-            create-drop
+            create
         </property>
 
         <mapping class="User"/>
