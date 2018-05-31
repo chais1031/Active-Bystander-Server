@@ -38,6 +38,6 @@
             create
         </property>
 
-        <mapping class="User"/>
+        <mapping class="uk.ac.ic.avocado.User"/>
     </session-factory>
 </hibernate-configuration>
