@@ -39,5 +39,6 @@
         </property>
 
         <mapping class="uk.ac.ic.avocado.User"/>
+        <mapping class="uk.ac.ic.avocado.Situation"/>
     </session-factory>
 </hibernate-configuration>
