@@ -40,5 +40,8 @@
 
         <mapping class="uk.avocado.model.User"/>
         <mapping class="uk.avocado.model.Situation"/>
+        <mapping class="uk.avocado.model.Thread"/>
+        <mapping class="uk.avocado.model.Message"/>
+        <mapping class="uk.avocado.model.Participant"/>
     </session-factory>
 </hibernate-configuration>
