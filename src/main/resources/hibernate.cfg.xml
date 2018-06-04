@@ -38,7 +38,7 @@
             validate
         </property>
 
-        <mapping class="uk.ac.ic.avocado.model.User"/>
-        <mapping class="uk.ac.ic.avocado.model.Situation"/>
+        <mapping class="uk.avocado.model.User"/>
+        <mapping class="uk.avocado.model.Situation"/>
     </session-factory>
 </hibernate-configuration>
