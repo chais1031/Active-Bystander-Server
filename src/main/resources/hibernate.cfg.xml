@@ -43,7 +43,6 @@
         <mapping class="uk.avocado.model.Thread"/>
         <mapping class="uk.avocado.model.Message"/>
         <mapping class="uk.avocado.model.Participant"/>
-        <mapping class="uk.avocado.model.Helparea"/>
-
+        <mapping class="uk.avocado.model.HelpArea"/>
     </session-factory>
 </hibernate-configuration>
